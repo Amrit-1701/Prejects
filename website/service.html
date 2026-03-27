@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zota Services - Web Design</title>
+  <link rel="stylesheet" href="service.css">
+</head>
+<script src="service.js"></script>
+<body>
+  <header>
+    <h1> Learn Web Design</h1>
+    <p>Explore some useful study videos on Web Design & Development.</p>
+  </header>
+
+  <button id="modeBtn">Change Theme</button>
+<button id="topBtn">Top</button>
+
+<div class="controls">
+
+  <button onclick="showAll()">All</button>
+  <button onclick="showHTML()">HTML</button>
+  <button onclick="showCSS()">CSS</button>
+
+  <button onclick="toggleVideos()">Hide / Show</button>
+
+  <button onclick="changeBG()">Change BG</button>
+
+  <button onclick="addVideo()">Add Video</button>
+
+</div>
+
+<p id="count"></p>
+
+  <section class="video-gallery" id="gallery">
+    <div class="video-card">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/M7LBvsdhCuI?si=rSfsJygeq_O_CHP1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h3>Introduction to Web Design</h3>
+    </div>
+
+    <div class="video-card">
+      <iframe width="350" height="200" src="https://www.youtube.com/embed/mU6anWqZJcc" 
+              title="HTML Crash Course" frameborder="0" allowfullscreen></iframe>
+      <h3>HTML for Beginners</h3>
+    </div>
+
+    <div class="video-card">
+      <iframe width="350" height="200" src="https://www.youtube.com/embed/yfoY53QXEnI" 
+              title="CSS Crash Course" frameborder="0" allowfullscreen></iframe>
+      <h3>CSS Crash Course</h3>
+    </div>
+
+      <div class="video-card">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/oFnIe-RpkE4?si=D_YXpM5FHEhlPhcR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h3>Example of making WebPage</h3>
+    </div>
+  </section>
+
+  <footer>
+    <a href="/website.html">⬅ Back to Home</a>
+  </footer>
+</body>
+</html>

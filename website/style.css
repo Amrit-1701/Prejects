@@ -1,0 +1,65 @@
+#one {
+  color: #27c953;
+  text-align: center;
+  text-decoration: black wavy underline;
+  font-weight: bolder;
+}
+
+#two {
+  color: aqua;
+  font-weight: bold;
+  text-align: center;
+}
+
+#three {
+  color: rgb(74, 89, 52);
+  text-align: center;
+  font-weight: lighter;
+  text-decoration: rgb(41, 101, 33) overline;
+}
+#div {
+  background-color: rgb(39, 44, 44);
+}
+#button {
+  background-color: dimgray;
+  text-decoration: rgb(247, 6, 6) line-through;
+  color: aqua;
+}
+#onebutt {
+  background-color: green;
+}
+
+/*.heading{color: red;}*/
+
+#para1 {
+  color: black;
+}
+p {
+  color: rgb(8, 228, 148);
+  text-align: left;
+  
+}
+button {
+  color: rgb(14, 35, 221);
+}
+body {
+  background-color: rgb(181, 212, 102);
+}
+/*use colour pallete and colour picker
+Also use (.my class) same as #id but for more than one*/
+
+h1,
+h2,
+h3 {
+  font-weight: 650;
+  color: rgb(49, 10, 83);
+}
+
+a {
+  text-decoration: none;
+}
+
+#img{
+  width: 100px;
+  height: 100px;
+}

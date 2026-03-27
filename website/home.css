@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/pexels-arnie-chou-304906-1229042.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 109vh;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(225, 215, 220, 0.6);
+  backdrop-filter: blur(2px);
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+header span {
+  color:#ff7200;
+  font-weight: bold;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px #ff7200;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+  margin-top: 30px;
+}

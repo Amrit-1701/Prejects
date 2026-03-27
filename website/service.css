@@ -1,0 +1,139 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/pexels-arnie-chou-304906-1229042.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 109vh;
+
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 15px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ff9800;
+  text-shadow: 0 0 10px #ff9800;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #ccc;
+}
+
+/* Video Gallery Layout */
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 25px;
+  padding: 40px;
+  flex-grow: 1;
+}
+
+/* Video Cards */
+.video-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.video-card iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.video-card h3 {
+  margin-top: 12px;
+  color: #00d4ff;
+  font-size: 1.2em;
+}
+
+.video-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.6);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+footer a {
+  text-decoration: none;
+  color: #ff9800;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color:#00d4ff;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+#modeBtn {
+  margin: 10px;
+  padding: 10px;
+  background: orange;
+  border: none;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: orange;
+  border: none;
+}
+
+.controls {
+  text-align: center;
+  margin: 20px;
+}
+
+.controls button {
+
+  padding: 10px;
+  margin: 5px;
+
+  background: orange;
+  border: none;
+  cursor: pointer;
+
+}
+
+#count {
+  text-align: center;
+  margin: 10px;
+}

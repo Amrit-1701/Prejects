@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first website</title>
+    <link rel="stylesheet" href="/website.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="icon">
+          <h2 class="logo">Zota</h2>
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="/home.html"
+                >HOME</a
+              >
+            </li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="/service.html" >SERVICE</a></li>
+            <li><a href="#">DESIGN</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        
+        <div class="search">
+          <input class="srch" type="search" placeholder="search here" />
+          <a href="#"><button class="btn1">Search</button></a>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Web Design & <br /><span>Development</span><br />Course</h1>
+        <p class="par1">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta,
+          consectetur. Nulla natus atque eos, <br />alias illo est ullam ducimus
+          dolorem delectus amet laboriosam <br />labore dolor saepe cumque quia
+          consectetur! A?
+        </p>
+        <button class="btn2"><a href="#">JOIN US</a></button>
+
+        <div class="form">
+          <h2>Login Here</h2>
+          <input type="email" name="email" placeholder="Enter Email Here" />
+          <input type="password" name="" placeholder="Enter Pass Here" />
+          <a href="#"><button class="btn3">Login</button></a>
+          
+          <p class="link">Don't have an account<br>
+          <a href="#">Sign up </a>here</a></p>
+          <p class="last">Login with</p>
+          <div class="icon">
+            <a href="https://www.facebook.com/" target="_main"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#" target="_main"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://x.com/" target="_main"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://www.google.com" target="_main"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://secure.skype.com/portal/overview" target="_main"><ion-icon name="logo-skype"></ion-icon></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="modeap"><button id="mode"><b>Change BG</b></button></div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <div class="content">
+
+    <h1>Web Design & Development</h1>
+
+    <p>
+      Learn Web Design with Zota
+    </p>
+
+    <button onclick="goService()">
+      Go To Service
+    </button>
+
+  </div>
+
+</div>
+
+
+
+<!-- ABOUT SECTION (ADD HERE) -->
+
+<section id="about" class="about">
+
+  <h2>About Zota</h2>
+
+  <p>
+
+    Zota is a website to learn Web Design,
+    HTML, CSS, JavaScript and build projects.
+
+  </p>
+
+</section>
+
+<section id="contact" class="contact">
+
+  <h2>Contact Us</h2>
+
+  <form onsubmit="sendMsg()">
+
+    <input type="text" placeholder="Name" required>
+
+    <input type="email" placeholder="Email" required>
+
+    <textarea placeholder="Message"></textarea>
+
+    <button type="submit">
+      Send
+    </button>
+
+  </form>
+
+</section>
+    <footer>
+      Made with &hearts; by Zota<br>
+      &#169; 20__-2025, Zota.com, Inc. or its affiliates
+    </footer>
+  </body>
+  <script src="/javaex.js"></script>
+</html>
